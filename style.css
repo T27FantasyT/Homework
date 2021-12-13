@@ -44,7 +44,7 @@ img {
 .banner {
   padding-top: 150px;
   padding-bottom: 228.359px;
-  background-image: url(/img/leaf.png);
+  background-image: url(./img/leaf.png);
   background-repeat: no-repeat;
 }
 
