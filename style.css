@@ -1,0 +1,536 @@
+.container {
+  width: 1200px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+img {
+  max-width: 100%;
+}
+.position-ab {
+  position: absolute;
+}
+
+.position-rela {
+  position: relative;
+}
+
+.menu-item-list {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  padding: 0 20px;
+  font-size: 14px;
+  color: #263a41;
+  font-weight: 600;
+}
+
+.menu-item {
+  flex-grow: 1;
+}
+.mr-left {
+  margin-left: 80px;
+}
+
+.align-item-bottom {
+  align-items: flex-end;
+}
+
+.banner {
+  padding-top: 150px;
+  padding-bottom: 228.359px;
+  background-image: url(/img/leaf.png);
+  background-repeat: no-repeat;
+}
+
+.banner-content h5 {
+  color: #ff817e;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-family: "Rufina";
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.banner-content h2 {
+  font-family: "Rufina";
+  font-size: 60px;
+  font-weight: 200;
+  margin-bottom: 25px;
+}
+
+.banner-content p {
+  font-family: "Roboto";
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.reserve-now {
+  border: none;
+  background-color: #ff817e;
+  color: #fff;
+  padding: 20px;
+  transition: 0.3s;
+  font-weight: 700;
+}
+
+.reserve-now:hover {
+  color: #000;
+}
+
+.info-video a {
+  text-decoration: none;
+  color: #555;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.spa-img {
+  background-color: transparent;
+  right: 0;
+  top: 0;
+}
+
+.about {
+  text-align: center;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-heading img {
+  margin-bottom: 40px;
+}
+
+.about-heading h4 {
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 20px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.about-info h2 {
+  color: #1e2528;
+  font-family: "Rufina";
+  font-size: 42px;
+  font-weight: 500;
+}
+.about-info p {
+  color: rgb(136, 136, 136);
+  font-size: 15px;
+  font-family: "Roboto";
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.readmore-button {
+  border: none;
+  background-color: #ff817e;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 20px 15px 20px 15px;
+  width: 180px;
+  font-size: 15px;
+  line-height: 15px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.readmore-button:hover {
+  color: #000;
+}
+
+.china {
+  left: -210px;
+}
+
+.jasmine {
+  right: -300px;
+  top: 200px;
+}
+
+.brand-about {
+  margin-bottom: 50px;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.service-item {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.service-container {
+  width: 1900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service {
+  margin-bottom: 50px;
+}
+
+.icon {
+  padding: 20px;
+}
+
+.service-hover {
+  width: 465px;
+  height: 556.812px;
+  left: 0;
+  top: 0;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.center {
+  align-content: center;
+}
+
+.service-hover span {
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.service-hover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ff817e;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.service-item:hover .service-hover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ff817e;
+  opacity: 0.9;
+  visibility: visible;
+}
+
+.flex-c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-title {
+  color: rgb(38, 58, 65);
+  font-family: "Rufina";
+  font-size: 22px;
+  font-weight: 100;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.article-container {
+  padding: 20px;
+  border: 1px solid rgb(195, 195, 199);
+  width: 320px;
+}
+
+.article-p {
+  font-family: "Roboto";
+  font-size: 15px;
+  color: rgb(108, 108, 111);
+  line-height: 27px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.article-readmore-button {
+  border: none;
+  background-color: #30383b;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 20px 15px 20px 15px;
+  width: 180px;
+  font-size: 15px;
+  line-height: 15px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.article-container:hover .article-readmore-button {
+  background-color: #ff817e;
+}
+
+.article {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.client-comment {
+  background-color: #fff9f8;
+}
+
+.quote {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.quote-icon {
+  margin: 40px;
+}
+
+.comment {
+  color: rgb(38, 58, 65);
+  font-family: "Rufina";
+  font-size: 18px;
+  line-height: 35px;
+  margin-bottom: 40px;
+}
+
+.client-img img {
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.infomation h6 {
+  display: inline-block;
+  font-size: 22px;
+  color: #263a41;
+  font-family: "Rufina";
+  line-height: 35px;
+  font-weight: 100px;
+}
+
+.infomation span {
+  font-family: "Roboto";
+  font-size: 15px;
+  color: rgb(38, 58, 65);
+}
+
+.staff {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.staff-name {
+  text-align: center;
+}
+.staff-info-list {
+  padding: 20px 50px 20px 50px;
+  background-color: #ffffff;
+  width: 320px;
+  transition: 0.3s;
+  bottom: 0;
+  border: rgb(243, 243, 243) solid 1px;
+}
+
+.p-left {
+  left: 50px;
+}
+
+.staff-info {
+  height: 500px;
+}
+.ssn {
+  width: 30px;
+  height: 30px;
+}
+
+.ssn img {
+  border-radius: 50%;
+  background-color: #ffffff;
+  padding: 5px;
+  transition: 0.3s;
+  opacity: 0;
+  border: #1e2528 solid 1px;
+}
+
+.between {
+  justify-content: center;
+}
+
+.ssn img:hover {
+  background-color: #ff817e;
+}
+
+.staff-info:hover .ssn img {
+  opacity: 1;
+}
+
+.staff-name {
+  padding: 10px;
+}
+.staff-name h4 {
+  font-family: "Rufina";
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 5px;
+}
+
+.staff-info:hover .staff-name {
+  bottom: 100px;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.appointment {
+  background-color: #fff9f8;
+}
+
+.appointment-form input {
+  height: 70px;
+  width: 350px;
+  border: none;
+  border-bottom: 1px solid #888;
+  margin-bottom: 40px;
+  color: #888;
+  background-color: #fff9f8;
+}
+
+.appointment-form {
+  padding: 30px;
+  width: 850px;
+}
+
+.appointment-form select {
+  height: 70px;
+  width: 350px;
+  border: none;
+  border-bottom: 1px solid #888;
+  text-transform: uppercase;
+  color: #888;
+  background-color: #fff9f8;
+}
+
+.appointment-form textarea {
+  width: 750px;
+  height: 70px;
+  border: none;
+  border-bottom: 1px solid #888;
+  margin-bottom: 40px;
+  background-color: #fff9f8;
+}
+
+.appointment-form button {
+  border: none;
+  background-color: #ff817e;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 20px 15px 20px 15px;
+  font-size: 15px;
+  line-height: 15px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.appointment-form button:hover {
+  color: #000;
+}
+
+.get-in-touch {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.address img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ff817e;
+  padding: 15px;
+}
+
+.address p {
+  text-align: left;
+  margin: 10px;
+}
+
+.contact {
+  margin: 10px;
+  color: #888;
+}
+
+.submit-form {
+  align-items: flex-start;
+}
+
+.submit-form input {
+  height: 50px;
+  width: 500px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid rgb(204, 203, 203);
+}
+
+.submit-form textarea {
+  height: 70px;
+  width: 500px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid rgb(204, 203, 203);
+}
+
+.submit-button {
+  border: none;
+  background-color: #ff817e;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 20px 45px 20px 45px;
+  font-size: 15px;
+  line-height: 15px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.submit-button:hover {
+  color: #000;
+}
+
+.footer {
+  padding: 50px;
+}
+
+footer .menu {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.ssn-nav-item {
+  width: 40px;
+  height: 19px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 30px;
+}
+
+.border {
+  border-right: 1px solid rgb(219, 219, 219);
+}
+
+.copyright {
+  text-align: center;
+}
+
+.copyright a {
+  color: #ff817e;
+  text-decoration: none;
+}
